@@ -29,7 +29,7 @@ If you like this resource, please follow me on GitHub. Thank you!
 
 [https://Crypto-Trading-Platform-nine.vercel.app/](https://Crypto-Trading-Platform-nine.vercel.app/)
 
-## Screenshots
+## Screenshots 
 
 ![Dashboard](https://github.com/NafisRayan/Crypto-Trading-Platform/blob/master/screenshots/1-dashboard.png?raw=true)
 
