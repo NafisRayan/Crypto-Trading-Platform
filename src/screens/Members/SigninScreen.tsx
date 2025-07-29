@@ -110,8 +110,26 @@ const SigninScreen: React.FC = () => {
                         <FormButton text='Sign in' />
                         <button
                           type="button"
-                          style={{ marginLeft: 10 }}
                           className="form-bypass-btn"
+                          style={{
+                            marginLeft: 10,
+                            border: '1px solid #1976d2',
+                            background: '#fff',
+                            color: '#1976d2',
+                            borderRadius: 4,
+                            padding: '8px 16px',
+                            fontWeight: 500,
+                            cursor: 'pointer',
+                            transition: 'background 0.2s, color 0.2s'
+                          }}
+                          onMouseOver={e => {
+                            (e.currentTarget as HTMLButtonElement).style.background = '#1976d2';
+                            (e.currentTarget as HTMLButtonElement).style.color = '#fff';
+                          }}
+                          onMouseOut={e => {
+                            (e.currentTarget as HTMLButtonElement).style.background = '#fff';
+                            (e.currentTarget as HTMLButtonElement).style.color = '#1976d2';
+                          }}
                           onClick={() => navigate('/market')}
                         >
                           Bypass Login
