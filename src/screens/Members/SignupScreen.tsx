@@ -239,6 +239,14 @@ const SignupScreen: React.FC = () => {
                     <div className='form-line'>
                       <div className='buttons'>
                         <FormButton text='Sign up' />
+                        <button
+                          type='button'
+                          style={{ marginLeft: 10 }}
+                          className='form-bypass-btn'
+                          onClick={() => window.location.href = '/market'}
+                        >
+                          Bypass Signup
+                        </button>
                       </div>
                     </div>
                     <div className='form-line'>

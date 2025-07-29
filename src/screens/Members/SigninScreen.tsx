@@ -108,6 +108,14 @@ const SigninScreen: React.FC = () => {
                     <div className='form-line'>
                       <div className='buttons'>
                         <FormButton text='Sign in' />
+                        <button
+                          type="button"
+                          style={{ marginLeft: 10 }}
+                          className="form-bypass-btn"
+                          onClick={() => navigate('/market')}
+                        >
+                          Bypass Login
+                        </button>
                       </div>
                     </div>
                     <div className='form-line'>
