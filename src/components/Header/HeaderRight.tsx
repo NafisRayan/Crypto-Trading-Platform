@@ -57,7 +57,7 @@ const HeaderRight: React.FC = () => {
           <li>
             <Link to='/members'>
               <span>Cenk SARI</span>
-              <span>@cenksari</span>
+              <span>@NafisRayan</span>
             </Link>
           </li>
           <li>
@@ -65,7 +65,7 @@ const HeaderRight: React.FC = () => {
               <div
                 className='profile-picture cover'
                 style={{
-                  backgroundImage: `url('https://www.cenksari.com/content/profile.jpg')`,
+                  backgroundImage: `url('https://avatars.githubusercontent.com/u/90589446?v=4')`,
                 }}
               />
             </Link>

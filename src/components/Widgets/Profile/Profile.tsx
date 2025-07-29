@@ -63,7 +63,7 @@ const Profile: React.FC = () => {
               <div
                 className='icon cover pointer'
                 style={{
-                  backgroundImage: `url('https://www.cenksari.com/content/profile.jpg')`,
+                  backgroundImage: `url('https://avatars.githubusercontent.com/u/90589446?v=4')`,
                 }}
               />
               <div className='edit pointer'>

@@ -51,7 +51,7 @@ const Navbar: React.FC = () => (
         <br />
         <br />
         Made with <span>❤</span> by{' '}
-        <a target='_blank' rel='noreferrer' href='https://www.cenksari.com'>
+        <a target='_blank' rel='noreferrer' href='https://www.NafisRayan.com'>
           Cenk SARI
         </a>
       </p>
