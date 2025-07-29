@@ -113,13 +113,16 @@ const SigninScreen: React.FC = () => {
                           className="form-bypass-btn"
                           style={{
                             marginLeft: 10,
+                            marginTop: 16,
                             border: '1px solid #1976d2',
                             background: '#fff',
                             color: '#1976d2',
                             borderRadius: 4,
-                            padding: '8px 16px',
+                            padding: '8px 5.33px',
                             fontWeight: 500,
                             cursor: 'pointer',
+                            width: '33%',
+                            minWidth: 80,
                             transition: 'background 0.2s, color 0.2s'
                           }}
                           onMouseOver={e => {
